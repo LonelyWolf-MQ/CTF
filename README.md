@@ -1,2 +1,2 @@
 # ctf_scripts
-In this repository i will share my script for ctf challenges
+In this repository I will share my python scripts for ctf challenges
