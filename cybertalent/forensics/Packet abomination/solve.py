@@ -1,6 +1,6 @@
 from scapy.all import *
 import codecs
-packet = rdpcap('Packet-abomination(1).pcap')
+packet = rdpcap('Packet-abomination.pcap')
 pcts = []
 b = ""
 for p in packet:
