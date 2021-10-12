@@ -6,7 +6,7 @@ if(!empty($flag)){
     $xx = array("1337" => $xx[3]);
     $flag = mb_convert_encoding($flag, $xx['1337'], 'UTF-8' );
     echo "<h1>The baby encoder!</h1>
-    Your encoded flag is <strong>$flag</strong>";
+    Your decoded flag is <strong>$flag</strong>";
 } else {
     die("Missing parameters!");
 }
