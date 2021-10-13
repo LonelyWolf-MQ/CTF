@@ -12,5 +12,5 @@
 
 ### And we will hash Ahmed's password to get the flag.
 ```s=$(echo -n passw0rd | md5sum | awk '{print $1}')```
-```echo Challenge flag is: IAUflag{$s}```
 
+```echo Challenge flag is: IAUflag{$s}```
