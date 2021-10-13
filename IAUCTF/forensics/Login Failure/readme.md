@@ -8,7 +8,7 @@ First we will move to the plugins/ directory in volatility then download the plu
 `wget https://raw.githubusercontent.com/volatilityfoundation/community/master/FrancescoPicasso/mimikatz.py`
 
 Here we will run mimikatz plugin with volatility
-`python2 /opt/volatility/vol.py  -f  ~/Downloads/Login.dmp --profile=Win7SP1x64 mimikatz`
+`python2 vol.py  -f  Login.dmp --profile=Win7SP1x64 mimikatz`
 
 And we will hash Ahmed's password to get the flag
 `s=$(echo -n passw0rd | md5sum | awk '{print $1}')`
