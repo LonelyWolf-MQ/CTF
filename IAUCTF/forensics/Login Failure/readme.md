@@ -11,5 +11,7 @@
 `python2 vol.py  -f  Login.dmp --profile=Win7SP1x64 mimikatz`
 
 ### And we will hash Ahmed's password to get the flag.
-`s=$(echo -n passw0rd | md5sum | awk '{print $1}')`
-`echo Challenge flag is: IAUflag{$s}`
+```
+s=$(echo -n passw0rd | md5sum | awk '{print $1}')
+echo Challenge flag is: IAUflag{$s}
+```
